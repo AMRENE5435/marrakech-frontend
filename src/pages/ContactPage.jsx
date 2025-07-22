@@ -223,7 +223,7 @@ const ContactPage = () => {
                   <Mail className="h-6 w-6 text-red-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">hello@marrakechreviews.com</p>
+                    <p className="text-gray-600">Contact@marrakech.reviews</p>
                     <p className="text-sm text-gray-500">We typically respond within 24 hours</p>
                   </div>
                 </div>
@@ -232,7 +232,7 @@ const ContactPage = () => {
                   <Phone className="h-6 w-6 text-red-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">+212 524 123 456</p>
+                    <p className="text-gray-600">+212 708 040 530</p>
                     <p className="text-sm text-gray-500">Monday - Friday, 9:00 AM - 6:00 PM (GMT)</p>
                   </div>
                 </div>
