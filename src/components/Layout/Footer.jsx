@@ -56,16 +56,23 @@ const Footer = () => {
               From authentic riads to hidden souks, we help you explore Marrakech like a local.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
-                <Facebook className="h-4 w-4" />
+              <Button variant="ghost" size="sm" className="h-8 w-8 p-0" asChild>
+                <a href="https://www.facebook.com/share/1Hz616hPW7/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="h-4 w-4" />
+                </a>
               </Button>
-              <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
-                <Twitter className="h-4 w-4" />
+              <Button variant="ghost" size="sm" className="h-8 w-8 p-0" asChild>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="h-4 w-4" />
+                </a>
               </Button>
-              <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
-                <Instagram className="h-4 w-4" />
+              <Button variant="ghost" size="sm" className="h-8 w-8 p-0" asChild>
+                <a href="https://www.instagram.com/marrakechreviews?igsh=MjcyenFwcThrN21u&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="h-4 w-4" />
+                </a>
               </Button>
             </div>
+
           </div>
 
           {/* Explore Links */}
