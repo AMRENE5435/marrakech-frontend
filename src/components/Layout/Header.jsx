@@ -91,7 +91,7 @@ const Header = () => {
               <div className="flex items-center space-x-2">
                 {/* Add Review Button */}
                 <Button asChild size="sm" className="hidden sm:flex">
-                  <Link to="/add-review">
+                  <Link to="/reviews/add">
                     <PenTool className="h-4 w-4 mr-2" />
                     Add Review
                   </Link>
@@ -200,7 +200,7 @@ const Header = () => {
                     <>
                       <div className="border-t pt-4">
                         <Link
-                          to="/add-review"
+                          to="/reviews/add"
                           onClick={() => setIsOpen(false)}
                           className="flex items-center space-x-2 text-sm font-medium text-primary"
                         >

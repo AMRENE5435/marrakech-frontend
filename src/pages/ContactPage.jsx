@@ -282,7 +282,7 @@ const ContactPage = () => {
             <div className="bg-gradient-to-r from-red-600 to-orange-600 rounded-lg p-8 text-white">
               <h3 className="text-xl font-bold mb-4">Business Partnerships</h3>
               <p className="text-red-100 mb-4">
-                Are you a business owner in Marrakech? Partner with us to showcase your establishment to travelers worldwide.
+                Are you a business owner in Marrakech or Casablanca? Partner with us to showcase your establishment to travelers worldwide.
               </p>
               <button
                 onClick={() => setFormData(prev => ({ ...prev, subject: 'Business Partnership' }))}
